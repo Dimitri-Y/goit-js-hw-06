@@ -16,7 +16,7 @@ const list = document.querySelector('ul.gallery');
 list.classList.toggle("task03");
 const insert = images =>{
   return images.map((image)=>
-    `<li><img url=${image.url} alt=${image.alt}/></li>`)
+    `<li><img src=${image.url} alt=${image.alt} width=400px /></li>`)
     .join("");
   };  
 list.insertAdjacentHTML("beforeend",insert(images));

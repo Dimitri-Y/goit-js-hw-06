@@ -23,6 +23,5 @@ button {
   cursor: pointer;
 }
 .task03 {
-  display: flex;
   list-style-type: none;
 }
